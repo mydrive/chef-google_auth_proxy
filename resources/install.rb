@@ -10,6 +10,7 @@ attribute :cookie_secret, kind_of: String
 attribute :cookie_expire, kind_of: String
 attribute :cookie_https_only, kind_of: [TrueClass, FalseClass], default: true
 attribute :cookie_httponly, kind_of: [TrueClass, FalseClass], default: true
+attribute :redirect_to_https, kind_of: [TrueClass, FalseClass], default: true
 
 attribute :user, kind_of: String, default: 'www-data'
 

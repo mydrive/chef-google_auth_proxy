@@ -64,6 +64,7 @@ action :run do
       cookie_expire: node['google_auth_proxy']['cookie_expire'],
       cookie_https_only: node['google_auth_proxy']['cookie_https_only'],
       cookie_httponly: node['google_auth_proxy']['cookie_httponly'],
+      redirect_to_https: node['google_auth_proxy']['redirect_to_https'],
       google_apps_domains: new_resource.google_apps_domains,
       listen_address: new_resource.listen_address,
       redirect_url: new_resource.redirect_url,
